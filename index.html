@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+    * {
+      font-family: "Figtree", serif;
+    }
+
+
+    #card {
+      margin: auto;
+      width: 200px;
+      height: 300px;
+      padding: 12px;
+      border: 1px solid black;
+      border-radius: 15px;
+      background-color: hsl(0, 0%, 100%);
+      ;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    #other {
+      font-size: 11px;
+      margin: 30px 30px 5px 0;
+      background-color: hsl(47, 88%, 63%);
+      display: inline;
+      padding: 4px
+    }
+
+    #part2 {
+      margin-top: 10px
+    }
+
+    span {
+      font-size: 9px
+    }
+
+    h1 {
+      font-size: 16px
+    }
+
+    h1:hover {
+      color: hsl(47, 88%, 63%);
+      cursor: pointer;
+    }
+
+    h2 {
+      color: hsl(0, 0%, 42%);
+      font-size: 11px
+    }
+
+    #footer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    img#avatar {
+      width: 20px;
+      height: 20px;
+
+    }
+
+    h3 {
+      height: 20px;
+      font-size: 11px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="card">
+    <div id="part1"> <img src="images/illustration-article.svg" alt=" image illustration"">
+    <div id="other">Learning</div>
+  </div>
+  <div id="part2"> <span>Published 21 Dec 2023</span>
+    <h1> HTML & CSS foundations
+    </h1>
+    <h2> These languages are the backbone of every website, defining structure, content, and presentation.
+    </h2>
+    <div id="footer"> <img id="avatar" src="images/image-avatar.webp" alt="avatar"></img>
+      <h3>Greg Hooper</h3>
+    </div>
+
+  </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Mateus Teixeira Herculano</a>.
+  </div>
+</body>
+
+</html>
